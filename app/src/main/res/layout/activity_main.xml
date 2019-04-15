@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Меню для прокрутки за допомогою кнопок" />
+
+    <Button
+        android:id="@+id/scrollup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Прокрутити Вниз" />
+
+    <Button
+        android:id="@+id/scrolldown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Прокрутити Вгору" />
+
+    <Button
+        android:id="@+id/scrolltotop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Прокрутка до самого вверху" />
+
+    <ScrollView
+        android:id="@+id/myview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0A0A0"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/panda" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Це\nВигляд\nМоже\nбути\nпрокрученим\nза допомогою кнопок!"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
